@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Hello, Ichigo</h1>
+        <p id="net-budget" class="net-budget">Available Balance : 400</p>
+    </div>
+
+    <div class="amount">
+        <div class="budget"> Budget <span id="income-amount"> 4000</span></div>
+        <div class="expense"> Expense <span id="expense-amount">1500</span></div>
+    </div>
+    
+    <div class="history">
+        <h2> TRANSACTION HISTORY</h2>
+        <ul class="list-of-transactions">
+            <li class="list-item">ITEM 1</li>
+            <li class="list-item">ITEM 2</li>
+            <li class="list-item">ITEM 3</li>
+            
+        </ul>
+    </div>
+
+    <div class="addtolist-btn">
+        <button class="add-btn">ADD TRANSACTION</button>
+    </div>
+    <div class="add-transaction-form">
+        <form method="post">
+            <input type="radio" id="type-expense" value="expense" >
+            <label for="type-expense">Expense</label>
+            <input type="radio" id="type-budget" value="budget">
+            <label for="type-budget">Budget</label>
+            
+        </form>
+    </div>
+    <script src="et.js"></script>
+</body>
+</html>
